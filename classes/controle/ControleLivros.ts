@@ -1,9 +1,9 @@
 import { Livro } from '../modelo/Livro';
 
 const livros: Array<Livro> = [
-    new Livro(1, 1, 'Livro A', 'Resumo A', ['Autor 1']),
-    new Livro(2, 2, 'Livro B', 'Resumo B', ['Autor 2']),
-    new Livro(3, 3, 'Livro C', 'Resumo C', ['Autor 3'])
+    new Livro(1, 1, 'Use a Cabeça: Java', 'Uma introdução ao Java.', ['Autor A', 'Autor B']),
+    new Livro(2, 2, 'Java para Iniciantes', 'Aprenda Java desde o básico.', ['Autor C']),
+    new Livro(3, 3, 'Java Avançado', 'Técnicas avançadas em Java.', ['Autor D'])
 ];
 
 export class ControleLivros {
